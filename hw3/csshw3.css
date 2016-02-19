@@ -1,0 +1,105 @@
+
+body{
+	background: grey;
+}
+	.main {
+		margin: 0;
+		background-color: white;
+		margin: 0 auto;
+		padding: 20px 50px 40px;
+		height: 850px;
+		width: 900px;
+		font-size: 12px;
+		font: tahoma;	
+		}
+		div#logo{
+			height: 40px;
+			width: 80px;
+			margin-bottom: 30px;
+				}
+
+			.menu{
+				background-color: #575757;
+				height: 40px;
+				text-align: left;
+				margin-bottom: 30px;
+				}
+				.menu a{	
+					color: white;
+					height: 40px;
+					margin: 20px;
+					text-decoration: none;
+					}
+				.menu li:hover{
+					background: #424242	;
+					}
+				.menu li{
+					display: inline-block;
+					width: 100px;
+					padding-top: 15px;
+					padding-bottom: 12px;
+					}
+			.contentleft{
+				float: left;
+				background: white;
+				color: black;
+				height: 280px;
+				width: 260px;
+				padding: 0px;
+				
+						}
+
+				.contentleft li{
+					border: 1px solid black;
+					height: 30px;
+					padding: 15px 0px 0px 25px;
+					display: block;	
+					
+					}
+				.contentleft li:hover{
+					padding-left: 50px;
+					font-weight: bold;
+					background: #f9f9f9;
+						}
+			.contentright{
+				float: right;
+				height: 580px;
+				width: 600px;
+				margin: 0 auto;
+							}
+				.bicycle {
+					border: 1px solid black;
+					height: 400px;
+					width: 600px;
+					}
+			.text{
+			
+				padding: 10px;
+				margin-bottom: 10px;
+				margin-top: 30px;
+					}
+			.bottom-line{
+				clear: both;
+				background-color: grey;
+				height: 40px;
+				margin-top: 10px; 
+				}
+				.bottom-line a {	
+					color: black;
+					height: 50px;
+					margin: 20px;
+					text-decoration: none;
+						}
+				
+				.bottom-line li{
+					display: inline-block;
+					background: e1e1e1;
+					padding-top: 15px;
+					padding-right: 30px;
+					padding-bottom: 19px;
+
+				}
+				.bottom-line li:hover{
+					text-decoration: underline;
+				}
+			
