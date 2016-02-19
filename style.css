@@ -1,0 +1,26 @@
+body{
+background: grey;
+}
+
+.main{
+font-family: Times new roman;
+font-size:20px;
+margin: 0 auto;
+background-color: white;
+padding: 20px 60px 40px;
+-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+height: 850px;
+width: 550px;	
+} 
+
+.photo{	
+height: 350px;
+text-align: center;
+}
+
+.whyfrontend, .contacts, .feedback{
+padding-left: 10px;
+border-top: 2px solid gray;
+}
