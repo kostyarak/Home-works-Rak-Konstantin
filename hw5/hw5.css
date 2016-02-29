@@ -1,0 +1,127 @@
+
+@font-face {
+    font-family: 'Helvetica_Neueregular';
+    src: url('fonts/helveticaneue-thin-webfont.eot');
+    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-image: url(img1.jpg);
+	background-repeat: no-repeat;
+	font-family: "Helvetica_Neueregular", Arial;
+
+}
+
+.menu{
+	background: #074d8a;
+	height: 42px;	
+	font-size: 12px;
+	text-align: right;	 
+	margin-bottom: 
+}
+.menu a{
+	display: block;
+	color: #4eabda;
+	height: 25px;
+	text-decoration: none;
+	padding: 17px 17px 0px 17px;
+}
+
+
+.menu li{
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 10px;
+}
+li img{
+	/*margin-top: 5px;*/
+	padding-left: 15px;
+}
+
+.menu li>a:hover{
+	background: #4eabda;
+	color: white;
+}
+
+.menu span{
+	text-decoration: underline;
+}
+.main{
+	margin: 70px auto 0px;
+	height: 490px;
+	width: 550px;
+	background: rgba(30, 35, 40, 0.6);
+	padding-top: 5px;
+	list-style: none;
+	color: white;
+
+}
+.main p{
+	font-size: 24px;
+	color: white;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 15px;
+}
+.login{
+width: 276px;
+/*padding-top: 25px;*/
+font-size: 14px;
+color: white;
+margin: 15px auto;
+}
+.fb{
+	margin-bottom: 15px;
+}
+.input{
+	background: #0f0f0f;
+	color: white;
+
+}
+legend{
+	border-width: 1px 0 0 0;
+	text-align: center;
+	color: #252824;
+	margin: 15px 0px;
+
+}
+.field{
+	width: 262px;
+	border: 0px;
+	padding: 9px 0 9px 10px;
+	margin-bottom: 12px;
+	background: #0f0f0f;
+	color: white;
+}
+.field:hover{
+	background: #1b5288;
+-webkit-box-shadow: 0px 0px 25px 0px rgba(80,140,179,1);
+-moz-box-shadow: 0px 0px 25px 0px rgba(80,140,179,1);
+box-shadow: 0px 0px 25px 0px rgba(80,140,179,1);
+}
+.chekbox{
+	font-size: 11px;
+}
+.button{
+	text-align: center;
+	margin-top: 0px;
+	border-top-width: 0px;
+	padding-right: 0px;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+
+}
+.privacy{
+font-size: 11px;
+text-align: center;
+margin-top: 20px;
+}
